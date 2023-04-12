@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EasyCodeTableSetting">
+    <option name="tableInfoMap">
+      <map>
+        <entry key="blogs.bl_artical">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="title" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="text" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BlArtical" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="Blog" />
+              <option name="savePackageName" value="org.example" />
+              <option name="savePath" value="./src/main/java/org/example" />
+              <option name="templateGroupName" value="gyf" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="blogs.bl_collect">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="userId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="articalId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="text" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="date" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BlCollect" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="Blog" />
+              <option name="savePackageName" value="org.example" />
+              <option name="savePath" value="./src/main/java/org/example" />
+              <option name="templateGroupName" value="gyf" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="blogs.bl_comment">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="userId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="articalId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="status" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="content" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BlComment" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="Blog" />
+              <option name="savePackageName" value="org.example" />
+              <option name="savePath" value="./src/main/java/org/example" />
+              <option name="templateGroupName" value="gyf" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="blogs.bl_kind">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="父类id，默认0" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="pid" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BlKind" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="Blog" />
+              <option name="savePackageName" value="org.example" />
+              <option name="savePath" value="./src/main/java/org/example" />
+              <option name="templateGroupName" value="gyf" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="blogs.bl_like">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="userId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="articalId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="date" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BlLike" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="Blog" />
+              <option name="savePackageName" value="org.example" />
+              <option name="savePath" value="./src/main/java/org/example" />
+              <option name="templateGroupName" value="gyf" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="blogs.bl_user">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="email" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="password" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BlUser" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="Blog" />
+              <option name="savePackageName" value="org.example" />
+              <option name="savePath" value="./src/main/java/org/example" />
+              <option name="templateGroupName" value="gyf" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
